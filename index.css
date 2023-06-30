@@ -74,8 +74,16 @@
 {
     color:indianred;
     display: block;
-
 }
+.navbar
+{
+    list-style-type: none;
+    color:black;
+    background-color: beige;
+    display:flex;
+    
+}
+
 .items
 {
     list-style-type: none;
@@ -88,10 +96,13 @@
 }
 
 
-body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
     line-height: normal;
+    
+    
 }
 
 .core
