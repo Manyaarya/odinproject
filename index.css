@@ -1,42 +1,40 @@
+*
+{
+    margin:auto;
+}
+
 .container
 {
-    background-color:beige;
+    background-color:ghostwhite;
     display: block;
     max-width: 100%;
 }
 
-.heading
+.heading, .about
 {
     text-align: center;
     color: brown;
-    background-color: wheat;
+    
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size:large;
 }
-.about
-{
-    
-    
-    font-size: large;
-    margin-top: 0%;
-    padding-top: 0%;
-    color:brown;
-    padding-left: 35%;
-    text-align: centre;
-    
-    
-}
+
 .image
 {
-    max-width: 100%;
+    
+    display:grid;
+    
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+    
 }
-.Introduc
+.detail
 {
-    font-size: smaller;
-    text-align: centre;
-    display:inline-block;
-    background-color: bisque;
-    margin:0%;
-    padding-left: 2%;
-    padding-right: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    padding:15px 40px 30px 40px
 }
 
 .menu-head
@@ -48,26 +46,29 @@
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-top: 2px dotted black;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    display: ruby-base-container;
+    display: flex;
+    
+}
+.price
+{
+    float:right;
+    color: crimson;
+    font-weight: bold;
+}
+.menu-head
+{
+    margin-left: 20%;
+    margin-right: 20%;
+
 }
 .menu
 {
-    display:inline-block;
-    border: 6px solid grey;
     
-    padding-right: 30px;
-    padding-left: 2px;
-    margin: 5px;
-    margin-left: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
-    background-color: rgb(188, 192, 192);
+    background-color: rgb(235, 211, 229);
     text-align: center;
-    padding-top: 0px;
-    margin-top: 0px;
-    max-width: 100%;
+    
     
 }
 .with
@@ -80,7 +81,12 @@
     list-style-type: none;
     color:black;
     background-color: beige;
-    display:flex;
+    display:grid;
+    grid-template-columns: 10% 10% 10% 10% 10%;
+    padding:2% 2% 2% 2%;
+    margin-top: 0% 0% 0% 0%;
+    position:relative;
+    margin:auto;
     
 }
 
@@ -89,11 +95,7 @@
     list-style-type: none;
 
 }
-.price{
-    float:right;
-    color: crimson;
-    font-weight: bold;
-}
+
 
 
 body
